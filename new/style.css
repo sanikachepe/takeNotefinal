@@ -1,0 +1,23 @@
+@media (max-width: 978px) {
+  #background {
+    background-image: url("/images/background-2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+@media (min-width: 978px) {
+  #background {
+    background-image: url("/images/background1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+div {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
